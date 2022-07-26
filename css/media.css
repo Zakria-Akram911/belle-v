@@ -1,0 +1,1164 @@
+    /* Media Query start */
+
+    /* For 1920 x 1080 */
+    @media (min-width: 1601px) and (max-width: 1920px){
+        p{
+            font-size: 30px;
+            line-height: 1.5;
+        }
+        h3{
+            font-size: 80px;
+        }
+        h6{
+            font-size: 40px;
+        }
+        .mycontainer{
+            padding: 50px 0px;
+        }
+        .navbar{
+            padding: 22px 10px;
+        }
+        .navbar a{
+            font-size: 26px;
+        }
+        .mycontainer_null img{
+            width: 125px;
+        }
+        .icon ul li{
+            margin: 30px;
+            font-size: 40px;
+        }
+        .brand{
+            padding: 80px 80px;
+        }
+        .brand ul{
+            justify-content: space-between;
+        }
+        .company_next1 img{
+            width: 160px;
+        }
+        .company_next1 p{
+            line-height: 1.7;
+            margin: 20px 0px;
+        }
+        .everyone p{
+            font-size: 60;
+            line-height: 1.7;
+        }
+        .btn a{
+            font-size: 40px;
+            padding: 30px 30px;
+            border-radius: 20px;
+        }
+        .gift1 img{
+            height: 50px;
+        }
+        .gift2 p{
+            font-size: 34px ;
+        }
+        .text1 p{
+            font-size: 42px;
+        }
+        .newsletter1, .newsletter2, .newsletter3{
+            margin: 20px 0px;
+        }
+        .newsletter1 h2{
+            font-size: 50px;
+        }
+        .newsletter2 p{
+            font-size: 36px;
+        }
+        .newsletter3 input{
+            font-size: 30px;
+            height: 70px;
+            width: 500px;
+        }
+        .newsletter3 i{
+            padding: 28px 28px;
+        }
+        .my-footer1 img{
+            width: 140px;
+        }
+        .my-footer1 p{
+            font-size: 36px;
+        }
+        .my-footer1 li{
+            font-size: 26px;
+            line-height: 2;
+        }
+        .my-footer1 input{
+            height: 50px;
+            width: 280px;
+        }
+        .my-footer1 i{
+            padding: 19px 16px;
+        }
+        .my-footer2-icon ul li{
+            padding: 4px 20px;
+        }
+        .my-footer2-icon ul li i{
+            font-size: 70px;
+        }
+
+
+        .about-us-first-div{
+            padding: 110px 0px;
+        }
+        #about-us-first-div-a {
+            font-size: 70px;
+            line-height: 2;
+        }
+        #about-us-first-div-b {
+            font-size: 60px;
+            max-width: 100%;
+            line-height: 1.7;   
+        }
+        #about-us-first-div-c p{
+            font-size: 40px;
+            line-height: 1.5;
+        }
+
+        .about-us-first-div1{
+            width: 44%;
+        }
+        .about-us-third-div img{
+            height: 900px;
+        }
+        .about-us-third-div1{
+            padding: 45px 90px 46px 40px;
+            line-height: 1.5;
+            text-align: center;
+            max-width: 50%;
+        }
+        .about-us-forth-div img{
+            height: 850px;
+        }
+        .about-us-forth-div1{
+            padding: 50px 80px;
+        }
+        .banner-review p{
+            font-size: 60px;
+        }
+        .reviews-1{
+            width: 29%;
+        }
+        .reviews-1-a p{
+            min-height: 550px;
+            font-size: 30px;
+        }
+    }
+    
+
+
+   /* For 1400 x 800 */
+    @media (min-width: 1367px) and (max-width: 1400px){
+        p{
+            font-size: 24px;
+            line-height: 1.5;
+        }
+        .everyone p{
+            font-size: 38px;
+        }
+        .btn a{
+            padding: 30px 30px;
+            border-radius: 15px;
+        }
+        .gift1 img{
+            height: 40px;
+        }
+        .text1 p{
+            line-height: 2;
+            font-size: 36px;
+        }
+        #about-us-first-div-a{
+            font-size: 30px;
+            line-height: 2;
+        }
+        #about-us-first-div-b{
+            font-size: 28px;
+            line-height: 1.8;
+        }
+        .about-us-first-div1{
+            width: 42%;
+        }
+        .about-us-second-div1 img{
+            /* height: 450px;  */
+            transition: height 20s ease-in ;
+        }
+        .about-us-second-div1 img:hover{
+            height: 450px;
+        }
+        .about-us-third-div img{
+            height: 700px;
+        }
+        .about-us-third-div1{
+            max-width: 44%;
+            text-align: center;
+        }
+        .about-us-third-div1 p{
+            line-height: 2;
+        }
+        .about-us-forth-div img{
+            height: 650px;
+        }
+        .reviews-1{
+            width: 27.79%;
+        }
+        .reviews-1-a p{
+            min-height: 230px;
+        }
+    }
+
+
+    /* For Screen of 1280 x 800 */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        p {
+            font-size: 20px ;
+        }
+
+        .navbar {
+            padding: 22px 12px;
+        }
+
+        .company {
+            padding: 0px 40px;
+            margin: 15px 0px;
+        }
+
+        .company_next1 p {
+            margin-top: 15px;
+        }
+
+        .our_story {
+            margin: 15px 0px;
+        }
+
+        .everyone p {
+            line-height: 1.4;
+            font-size: 36px ;
+        }
+
+        .btn a {
+            margin: 15px 0px;
+        }
+
+        .gift {
+            padding: 0px 0px;
+            margin: 15px 0px;
+        }
+
+        .gift1,
+        .gift2,
+        .text {
+            margin: 15px 0px;
+        }
+
+        .text1 p {
+            font-size: 32px ;
+            line-height: 2.0;
+        }
+
+        .newsletter1,
+        .newsletter2,
+        .newsletter3 {
+            margin: 15px 0px;
+        }
+
+
+
+
+
+        .about-us-first-div {
+            justify-content: space-between;
+        }
+
+        .about-us-first-div1 {
+            width: 40%;
+        }
+
+        #about-us-first-div-a {
+            font-size: 30px ;
+            margin-bottom: 20px;
+        }
+
+        #about-us-first-div-b {
+            font-size: 28px ;
+        }
+
+        #about-us-first-div1-c {
+            font-size: 22px ;
+            font-weight: 500
+        }
+
+        .about-us-second-div {
+            margin: 30px 0px;
+            padding: 0px 0px;
+            justify-content: unset;
+        }
+
+        .about-us-second-div1 {
+            display: block;
+            margin: 0px auto;
+            width: 40%;
+            padding: 0px 0px;
+        }
+
+        .about-us-second-div1 h3 {
+            font-size: 50px;
+            display: inline-block;
+        }
+
+        .about-us-second-div1 h6 {
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .about-us-second-div1 p {
+            line-height: 1.8;
+        }
+
+        .about-us-third-div1 {
+            bottom: 11%;
+            left: 8%;
+            padding: 0px 0px;
+            background-color: transparent;
+            color: black;
+            max-width: 84%;
+        }
+
+        .about-us-third-div1 p {
+            font-size: 26px ;
+            font-weight: 300;
+        }
+
+        .about-us-third-div img {
+            margin: 15px 0px;
+        }
+
+        .about-us-forth-div img {
+            margin: 15px 0px;
+        }
+
+        .about-us-fifth-div1 p {
+            font-size: 30px ;
+        }
+
+
+
+
+        .reviews {
+            margin: 20px 0px;
+            padding: 0px 70px;
+        }
+
+        .reviews-1-a p {
+            min-height: 210px;
+        }
+
+        .reviews-1-a hr {
+            margin: 0px;
+        }
+
+        .banner-review p {
+            font-size: 40px ;
+        }
+
+        .my-footer1 p {
+            margin: 20px 0px;
+        }
+
+        .my-footer-images {
+            margin: 20px 0px;
+            padding: 0px 50px;
+        }
+    }
+
+
+    /* For iPad Pro */
+    @media (min-width: 1024px) and (max-width: 1279px){
+        p{
+            font-size: 18px ;
+            line-height: 1.5;
+        }
+        h2{
+            font-size: 40px;
+        }
+        .everyone p{
+            font-size: 28px;
+            line-height: 1.7;
+        }
+        .btn a{
+            padding: 26px 26px;
+        }
+        .gift1 img{
+            height: 40px;
+        }
+        .text1 p{
+            font-size: 32px;
+        }
+        .newsletter2 p{
+            font-size: 28px;
+        }
+        .my-footer1 input{
+            width: 170px;
+        }
+        .my-footer1 li a{
+            line-height: 2.5;
+        }
+        .about-us-first-div{
+            justify-content: space-around;
+        }
+        #about-us-first-div-a{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        #about-us-first-div-b{
+            max-width: 100%;
+        }
+        .about-us-third-div1{
+            max-width: 100%;
+            left: 11%;
+            bottom: 6%;
+            background-color: transparent;
+            color: black;
+            font-weight: 500;
+        }
+        .about-us-forth-div {
+            position: unset;
+        }
+        .about-us-forth-div1{
+            max-width: 100%;
+            position: unset;
+            padding: unset;
+            margin: 20px 0px;
+            text-align: center;
+        }
+        .about-us-forth-div1 p{
+            font-size: 22px;
+            padding: 0px 135px;
+            line-height: 2;
+        }
+        .banner-review p{
+            font-size: 40px;
+        }
+        .reviews{
+            padding: 0px 25px;
+            margin: 20px 0px;
+            align-items: unset;
+        }
+        .reviews-1{
+            width: 29%;
+            padding: 17px 10px;
+            margin: 11px 10px;
+        }
+        .reviews-1-a p{
+            min-height: 310px;
+            font-size: 18px;
+        }
+
+        /* Hamburger */
+        nav.navbar {
+            position: fixed;
+            width: 100%;
+            top: -3px;
+            height: 100%;
+            max-width: 30%;
+            background: #000;
+            z-index: 9;
+            left: -70%;
+            display: flex;
+            /* max-height: 300px; */
+            transition: 0.4s ease-in-out;
+        }
+        nav.navbar.active {
+            left: -3px;
+        }
+        
+        nav.navbar ul {
+            display: block;
+            margin: 120px 0px 0px 10px;
+        }
+        
+        nav.navbar ul a {
+            display: block;
+            font-size: 26px;
+            padding-bottom: 50px;
+        }
+
+        .hamburger {
+            display: block;
+            position: relative;
+            width: 10%;
+        }
+        
+        .hamburger button {
+            background: transparent;
+            border: 0px;
+            outline: none;
+        }
+        
+        .hamburger button span {
+            width: 60px;
+            height: 8px;
+            display: block;
+            background: #fff;
+            margin-bottom: 10px;
+            transition: 0.4s ease-in-out;
+        }
+        .hamburger button.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .hamburger button.active span:nth-child(2) {
+            display: none;
+        }
+        
+        .hamburger button.active span:nth-child(3) {
+            transform: rotate(-45deg);
+        }
+        .logo-con {
+            width: 40%;
+        }
+        
+        .hamburger button.active {
+            position: relative;
+            z-index: 99;
+        }
+        .mobile_menu{
+            width: 15%;
+        }
+        .logo{
+            width: 30%;
+        }
+        .socio-list{
+            width: 30%;
+        }
+    }
+
+     /* For iPad */
+     @media (min-width: 768px) and (max-width: 1023px) {
+        p {
+            font-size: 14px ;
+            line-height: 1.6;
+            word-spacing: 1px;
+        }
+
+        
+        .company {
+            justify-content: center;
+            padding: 0px 15px;
+            margin: 15px 0px;
+        }
+
+        .company_next {
+            width: 33%;
+        }
+
+        .company_next1 img {
+            margin-bottom: 20px;
+            filter: none;
+            transition: none;
+        }
+
+        .item a {
+            margin-top: 10px;
+        }
+
+        .item p {
+            line-height: 2.2;
+            font-size: 20px ;
+        }
+
+        .gift {
+            padding: 0px 15px;
+            margin: 15px 0px;
+        }
+
+        .gift1 {
+            margin: 10px 0px;
+        }
+
+        .gift2 {
+            padding: 0px 0px;
+            margin: 10px 0px;
+        }
+
+        .gift a {
+            margin: 10px 0px;
+        }
+
+        .text {
+            margin: 15px 0px;
+        }
+
+        .text1 p {
+            font-size: 24px ;
+            line-height: 2;
+        }
+
+        .newsletter1 {
+            margin: 15px 0px;
+        }
+
+        .newsletter2 {
+            margin: 15px 0px;
+        }
+
+        .newsletter2 p {
+            color: blue;
+        }
+
+        .newsletter3 {
+            margin: 15px 0px;
+        }
+
+
+
+        #about-us-first-div-b {
+            max-width: 100%;
+            line-height: 3;
+            font-weight: bold;
+        }
+
+        #about-us-first-div1-c {
+            padding: 0px 35px;
+        }
+
+        .about-us-first-div1 {
+            padding-left: 18px;
+            width: 42%;
+        }
+
+        .flex-rev-main {
+            margin: 20px 0px;
+            padding: 0px 20px;
+        }
+
+        .about-us-second-div1 {
+            width: 45%;
+            padding: 0px 0px;
+        }
+
+        .about-us-second-div1 h3 {
+            font-size: 40px;
+            display: inline-block;
+        }
+
+        .about-us-second-div1 h6 {
+            display: inline-block;
+        }
+
+        .about-us-third-div1 {
+            background-color: transparent;
+            color: black;
+            font-weight: 500;
+            position: absolute;
+            bottom: 11%;
+            left: 1%;
+            padding: 0px 0px;
+            display: inline-block;
+            text-align: center;
+            max-width: 96%;
+        }
+
+        .about-us-third-div1 p {
+            font-size: 20px ;
+        }
+
+        .about-us-forth-div1 {
+            position: relative;
+            display: block;
+            text-align: center;
+            max-width: 100%;
+            padding: 0px 20px;
+            margin: 50px 0px;
+
+        }
+
+        .about-us-forth-div1 p {
+            font-size: 22px ;
+            border: none;
+            padding: 0px 0px;
+        }
+
+        .about-us-fifth-div1 img {
+            height: 300px;
+        }
+
+        .about-us-fifth-div1 p {
+            font-size: 22px ;
+            padding: 10px 0px 30px 0px;
+        }
+
+
+
+
+        .banner-review p {
+            font-size: 24px;
+        }
+
+        .reviews {
+            /* align-items: unset; */
+            /* justify-content: space-around; */
+            padding: 0px 15px;
+            margin: 25px 0px;
+        }
+
+        .reviews-1 {
+            width: 40%;
+            margin: 20px 17px;
+        }
+        .reviews-1-a p{
+            min-height: 300px;
+        }
+
+        .my-footer1 input {
+            height: 39px;
+            width: 100px;
+        }
+
+        .my-footer1 p {
+            margin: 20px 0px;
+        }
+
+        .my-footer2 {
+            width: 46%;
+        }
+
+        .my-footer-images {
+            margin: 20px 0px;
+            padding: 0px 20px;
+        }
+
+        /* HUMBUGER */
+
+     
+
+
+        nav.navbar {
+            position: fixed;
+            width: 100%;
+            top: -3px;
+            height: 100%;
+            max-width: 30%;
+            background: #000;
+            z-index: 9;
+            left: -70%;
+            display: flex;
+            /* max-height: 300px; */
+            transition: 0.4s ease-in-out;
+        }
+        nav.navbar.active {
+            left: -3px;
+        }
+        
+        nav.navbar ul {
+            display: block;
+            margin: 120px 0px 0px 10px;
+        }
+        
+        nav.navbar ul a {
+            display: block;
+            font-size: 22px;
+            padding-bottom: 50px;
+        }
+
+        .hamburger {
+            display: block;
+            position: relative;
+            width: 10%;
+        }
+        
+        .hamburger button {
+            background: transparent;
+            border: 0px;
+            outline: none;
+        }
+        
+        .hamburger button span {
+            width: 40px;
+            height: 8px;
+            display: block;
+            background: #fff;
+            margin-bottom: 5px;
+            transition: 0.4s ease-in-out;
+        }
+        .hamburger button.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .hamburger button.active span:nth-child(2) {
+            display: none;
+        }
+        
+        .hamburger button.active span:nth-child(3) {
+            transform: rotate(-45deg);
+        }
+        .logo-con {
+            width: 40%;
+        }
+        
+        /* .socio-list {
+            width: 20%;
+        } */
+        
+        .hamburger button.active {
+            position: relative;
+            z-index: 99;
+        }
+        .mobile_menu{
+            width: 15%;
+        }
+        .logo{
+            width: 30%;
+        }
+        .socio-list{
+            width: 30%;
+        }
+    }
+
+
+
+    /* For mobile phones */
+    @media (max-width: 767px) {
+        .mycontainer_null img{
+            width: 70px;
+        }
+        .icon ul li{
+            font-size: 18px;
+            margin: 0px;
+        }
+        .brand {
+            padding: 0px 15px;
+            margin: 15px 0px;
+        }
+
+        .brand ul li {
+            width: 33%;
+        }
+
+        .company {
+            display: flex;
+            padding: 0px 15px;
+            margin: 15px 0px;
+            justify-content: space-around;
+            align-items: end;
+            flex-wrap: wrap;
+
+        }
+
+        .company_next {
+            width: 40%;
+            margin: 10px 0px;
+        }
+
+        .company_next1 {
+            padding: 0px 0px;
+        }
+
+        .company_next1 p {
+            margin: 10px 0px;
+        }
+
+        .our_story {
+            margin: 15px 0px;
+        }
+
+        .everyone {
+            line-height: 2.0;
+        }
+
+        .btn {
+            margin: 15px 0px;
+        }
+
+        .gift {
+            padding: 0px 15px;
+            margin: 15px 0px;
+        }
+
+        .gift1 {
+            margin: 10px 0px;
+        }
+
+        .gift2 {
+            margin: 10px 0px;
+        }
+
+        .image1 {
+            width: 49%;
+        }
+
+        .newsletter2 p {
+            text-align: center;
+            margin: 15px 0px;
+        }
+
+        .newsletter3 input {
+            margin: 15px 0px;
+            width: 250px;
+            height: 50px;
+        }
+
+        .newsletter3 i {
+            padding: 18px 15px;
+        }
+
+        .about-us-first-div {
+            display: block;
+            /* width: 100%; */
+            padding: 10px 15px;
+        }
+
+        .about-us-first-div1 {
+            /* display: block; */
+            width: 100%;
+            padding: 12px 0px;
+        }
+
+        #about-us-first-div-a {
+            text-align: center;
+        }
+
+        #about-us-first-div-b {
+            display: block;
+            margin: 0px auto;
+            text-align: center;
+            line-height: 2;
+        }
+
+        #about-us-first-div1-c {
+            padding: 0px 0px;
+            border-left: none;
+        }
+
+        .flex-rev-main {
+            padding: 0px 15px;
+            margin: 20px 0px;
+            display: block;
+        }
+
+        .about-us-second-div {
+            display: block;
+            padding: 0px 0px;
+            margin: 25px 0px;
+            /* width: 100%; */
+        }
+
+        .about-us-second-div1 {
+            width: 100%;
+            padding: 0px 0px;
+        }
+
+        .about-us-second-div1 h3 {
+            display: inline-block;
+            padding: 0px 0px;
+            margin-right: 10px;
+        }
+
+        .about-us-second-div1 h6 {
+            display: inline-block;
+            /* margin: 0px 10px; */
+        }
+
+        .about-us-second-div1 p {
+            margin-top: 10px;
+        }
+
+        .about-us-third-div {
+            display: block;
+            padding: 0px 15px;
+            margin: 20px 0px;
+        }
+
+        .about-us-third-div img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .about-us-third-div1 {
+            padding: 0px 0px;
+            max-width: 73%;
+            bottom: 3%;
+            left: 13%;
+            font-weight: 500;
+            background: none;
+            color: black;
+            text-align: center;
+        }
+
+        .about-us-forth-div {
+            display: block;
+            padding: 0px 15px;
+            margin: 20px 0px;
+        }
+
+        .about-us-forth-div img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+            position: relative;
+        }
+
+        .about-us-forth-div1 {
+            /* max-width: 10%; */
+            padding: 0px 0px;
+            position: relative;
+            max-width: 100%;
+        }
+
+        .about-us-forth-div1 p {
+            padding: 0px 0px;
+            text-align: center;
+            border: none;
+        }
+
+        .about-us-fifth-div {
+            display: block;
+            padding: 0px 15px;
+            margin: 20px 0px;
+        }
+
+        .about-us-fifth-div img {
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+        }
+
+        .reviews {
+            display: block;
+            padding: 0px 0px;
+            margin: 0px 15px;
+        }
+
+        .reviews-1 {
+            width: 100%;
+            padding: 0px 0px;
+            margin: 40px 0px;
+        }
+
+        .reviews-1-a {
+            width: 100%;
+            padding: 2px;
+        }
+
+        .reviews-1-a p {
+            min-height: auto;
+        }
+
+
+        .my-footer {
+            display: block;
+        }
+
+        .my-footer1 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .my-footer-images {
+            margin: 15px 0px;
+            padding: 0px 15px;
+        }
+
+        .my-footer2 {
+            width: 50%;
+        }
+
+        p {
+            font-size: 14px ;
+            line-height: 2;
+        }
+
+        h6 {
+            font-size: 18px ;
+        }
+
+        h3 {
+            font-size: 34px ;
+        }
+
+        hr {
+            margin: 0px 0px;
+        }
+
+        /* Hamburger */
+        nav.navbar{
+            position: fixed;
+            top: -20px;
+            /* left: 10px; */
+            height: 100%;
+            width: 40%;
+            background: black;
+            z-index: 9;
+            left: -120%;
+            display: flex;
+            transition: 0.5s ease-in-out;
+        }
+        nav.navbar.active {
+            left: -3px;
+        }
+        
+        nav.navbar ul {
+            display: block;
+            margin: 120px 0px 0px 10px;
+        }
+        
+        nav.navbar ul a {
+            display: block;
+            font-size: 22px;
+            padding-bottom: 30px;
+        }
+
+        .hamburger {
+            display: block;
+            position: relative;
+            width: 10%;
+        }
+        
+        .hamburger button {
+            background: transparent;
+            border: 0px;
+            outline: none;
+        }
+        .hamburger button.active {
+            position: relative;
+            z-index: 99;
+        }
+         .hamburger button span {
+            width: 40px;
+            height: 4px;
+            display: block;
+            background: #fff;
+            margin-bottom: 5px;
+            transition: 0.4s ease-in-out;
+        }
+        .hamburger button.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .hamburger button.active span:nth-child(2) {
+            display: none;
+        }
+        
+        .hamburger button.active span:nth-child(3) {
+            transform: rotate(-45deg);
+        }
+        
+        .logo-con {
+            width: 40%;
+        }
+        .mobile_menu{
+            width: 15%;
+        }
+        .logo{
+            width: 30%;
+        }
+        .socio-list{
+            width: 30%;
+        } 
+    }
+
+    
