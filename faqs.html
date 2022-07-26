@@ -1,12 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQs</title>
+
+    <!-- Link for font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Link for google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Script for JQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Link for Owl Carousel-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link for external CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="mycontainer">
+        <div class="hamburger">
+          <button><span></span><span></span><span></span></button>
+        </div>
+        <div class="mycontainer_null mobile_menu">
+          <nav class="navbar">
+            <ul>
+              <a href="about-us.html">
+                <li>About Us</li>
+              </a>
+              <a href="shop-all.html">
+                <li>Shop All</li>
+              </a>
+              <a href="reviews.html">
+                <li>Reviews</li>
+              </a>
+              <a href="faqs.html">
+                <li>FAQs</li>
+              </a>
+              <a href="contact-us.html">
+                <li>Contact Us</li>
+              </a>
+            </ul>
+          </nav>
+        </div>
+        <div class="mycontainer_null logo-con">
+          <a href="index.html"
+            ><img src="images/logo.png" alt="unavailable"
+          /></a>
+          <!-- <img src="images/logo.png" alt="unavailable"> -->
+        </div>
+        <div class="mycontainer_null socio-list">
+          <div class="icon">
+            <ul>
+              <a href="#"
+                ><li><i class="fas fa-shopping-cart"></i></li
+              ></a>
+              <a href="#"
+                ><li><i class="fas fa-search"></i></li
+              ></a>
+              <a href="#"
+                ><li><i class="far fa-user"></i></li
+              ></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <h1>No Page Found</h1>
-</body>
+    <footer>
+      <div class="my-footer">
+        <div class="my-footer1">
+          <img src="images/logo.png" alt="unavailable" />
+        </div>
+        <div class="my-footer1">
+          <p>Company</p>
+          <li><a href="#">About Us</a></li>
+          <br />
+          <li><a href="#">Press</a></li>
+          <br />
+          <li><a href="#">FAQs</a></li>
+          <br />
+          <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="my-footer1">
+          <p>Shop</p>
+          <li><a href="#">Bottle Opener</a></li>
+          <br />
+          <li><a href="#">Ice Cream Scoops</a></li>
+          <br />
+          <li><a href="#">Serving Spoon Set</a></li>
+          <br />
+          <li><a href="#">Limited Addition</a></li>
+        </div>
+
+        <div class="my-footer1">
+          <p>Join Our Community</p>
+          <input type="text" placeholder="Email" />
+          <i class="fas fa-arrow-right"></i>
+        </div>
+      </div>
+      <div class="my-footer-images">
+        <div class="my-footer2">
+          <div class="sub-my-footer2">
+            <div class="card"><img src="images/amex.png" alt="Amex" /></div>
+            <div class="card"><img src="images/elo.png" alt="elo" /></div>
+            <div class="card"><img src="images/jcb.png" alt="JCB" /></div>
+            <div class="card">
+              <img src="images/mastercard.png" alt="MasterCard" />
+            </div>
+            <div class="card"><img src="images/paypal.png" alt="Paypal" /></div>
+            <div class="card"><img src="images/visa.png" alt="Visa" /></div>
+          </div>
+          <div class="sub-my-footer3">
+            <div class="last">
+              <i class="far fa-copyright"></i>
+              <p>2021, Belle-V Kitchen</p>
+            </div>
+            <div class="last">
+              <p>Powered By Shopify</p>
+            </div>
+          </div>
+        </div>
+        <div class="my-footer2">
+          <div class="my-footer2-icon">
+            <ul>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    $(document).ready(function () {
+      $(".hamburger button").click(function () {
+        $(this).toggleClass("active");
+        $("nav.navbar").toggleClass("active");
+      });
+    });
+  </script>
 </html>
